@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     background-color: #f38779;
-}
+} */
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     width: 100%;
     background-color: #4793AF;
 }
