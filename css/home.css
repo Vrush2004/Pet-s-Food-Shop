@@ -43,3 +43,49 @@
     color: #FFC470;
     text-decoration: none;
 }
+.category-container{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC470;
+    height: 500px;
+    width: 100%;
+}
+.Trending-categories{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #e8533f;
+}
+.category-container h3{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #7e241e;
+}
+.pets-category-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+.category{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+.category img{
+    height: 160px;
+    width: 200px;
+    border-radius: 50%;
+}
+.category p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7e241e;
+}
