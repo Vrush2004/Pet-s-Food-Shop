@@ -1,0 +1,42 @@
+.discount-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background-color: #f38779;
+}
+.discounts-info{
+    margin: 140px 0 0 100px;
+}
+.available{
+    font-size: 18px;
+    color: #d42e18;
+}
+.discounts-info h3{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #7e241e;
+}
+.desc{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #d42e18;
+}
+.shop-now-btn{
+    margin-top: 20px;
+    border: none;
+    background-color: #8B322C;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;  
+}
+.shop-now-btn a{
+    color: #FFC470;
+    text-decoration: none;
+}
+.discount-section-img {
+    height: 400px;
+    margin-right: 70px;
+}
