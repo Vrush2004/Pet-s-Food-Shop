@@ -131,15 +131,15 @@
     color: #7e241e;
     box-shadow: 2px 2px 20px 2px gray;
 }
-.dog-food-container{
+.food-container{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFC470;
     height: 600px;
 }
-.dogs-food-heading{
+.food-heading{
     text-align: center;
 }
-.dogs-food-heading h1{
+.food-heading h1{
     color: #FFC470;
     font-size: 35px;
     text-align: center;
@@ -151,7 +151,7 @@
     margin: 40px auto 40px auto;
     align-items: center;
 }
-.dog-food-card-cantainer{
+.food-card-cantainer{
     overflow: hidden;
     height: 400px;
     width: 100%;
@@ -160,7 +160,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.dog-food-card{
+.food-card{
     background-color: white;
     box-shadow: -4px 4px 10px 1px rgb(67, 66, 66);
     height: 300px;
@@ -170,11 +170,11 @@
     border-radius: 15px;
     margin: 10px;
 }
-.dog-food-card img{
+.food-card img{
     margin-top: 10px;
     height: 150px;
 }
-.dog-food-card button{
+.food-card button{
     padding: 5px 20px;
     background-color: #7e241e;
     color: #FFC470;
