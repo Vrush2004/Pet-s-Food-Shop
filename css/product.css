@@ -28,13 +28,22 @@
     margin-top: 20px;
     border: none;
     background-color: #8B322C;
-    padding: 5px 20px;
+    padding: 10px 30px;
     font-size: 18px;
     font-weight: 600;
     border-radius: 15px;  
 }
+.shop-now-btn:hover{
+    background-color: #FFC470;
+    box-shadow: 5px 5px 20px 2px #7e241e;
+    padding: 10px 30px;
+}
 .shop-now-btn a{
     color: #FFC470;
+    text-decoration: none;
+}
+.shop-now-btn a:hover{
+    color: #7e241e;
     text-decoration: none;
 }
 .discount-section-img {
@@ -46,12 +55,6 @@
     background-color: #FFC470;
     width: 100%;
     overflow-x: hidden;
-}
-.new-trending-products-container h1{
-    color: #7e241e;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 30px;
 }
 .new-products-container{
     display: flex;
@@ -122,4 +125,61 @@
     border: none;
     border-radius: 20px;
     margin: 0 auto;
+}
+.product-btn:hover{
+    background-color: #FFC470;
+    color: #7e241e;
+    box-shadow: 2px 2px 20px 2px gray;
+}
+.dog-food-container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC470;
+    height: 500px;
+}
+.dogs-food-heading{
+    text-align: center;
+}
+.dogs-food-heading h1{
+    color: #7e241e;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #4793AF;
+    display: inline-block;
+    border-radius: 0px 80px 0px 80px;
+    box-shadow: -5px 5px 20px 2px;
+    margin: 30px auto 10px auto;
+    align-items: center;
+}
+.dog-food-card-cantainer{
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+}
+.dog-food-card{
+    background-color: white;
+    box-shadow: -4px 4px 10px 1px rgb(67, 66, 66);
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.dog-food-card img{
+    margin-top: 10px;
+    height: 150px;
+}
+.dog-food-card button{
+    padding: 5px 20px;
+    background-color: #7e241e;
+    color: #FFC470;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
 }
