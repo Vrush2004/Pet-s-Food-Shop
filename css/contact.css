@@ -13,7 +13,7 @@
     height: 250px;
 }
 .contact-detail-container{
-    height: 600px;
+    height: 550px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFC470;
     display: flex;
@@ -21,9 +21,43 @@
     justify-content: space-between;
 }
 .contact-form{
-    height: 500px;
+    height: 450px;
     width: 500px;
     box-shadow: 10px 10px 20px 5px #d99f4d;
     margin: 50px 100px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form:hover{
+    box-shadow: 15px 15px 20px 10px #c28e45;
+}
+.form-content{
+    padding: 15px;
+    margin: 5px 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    color: #8B322C;
+    background-color: white;
+}
+.form-content:hover{
+    border: solid 2px #8B322C
+}
+.send-btn{
+    background-color: #8B322C;
+    color: #d99f4d;
+    padding: 7px 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+.send-btn:hover{
+    background-color: #d99f4d;
+    color: #8B322C;
+    box-shadow: 5px 5px 10px 2px;
 }
