@@ -1,0 +1,29 @@
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Or set a specific height for the container */
+}
+.contact-us-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us-img img {
+    height: 250px;
+}
+.contact-detail-container{
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFC470;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-form{
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 20px 5px #d99f4d;
+    margin: 50px 100px;
+    border-radius: 20px;
+}
