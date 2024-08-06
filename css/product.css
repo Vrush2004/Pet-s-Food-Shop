@@ -1,12 +1,19 @@
 .pets-image-container{
     padding-top: 10px;
     background-color: #FFC470;
-    height: 100px;
+    height: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px auto;
+}
+.container-height{
+    height: 450px;
+}
+.pets-images{
+    position: relative;
+    bottom: 70px;
 }
 .pets-images img{
     height: 80px;

@@ -4,31 +4,35 @@
 .our-services-img img{
     height: 350px;
 }
-.services-container{
-    height: 550px;
+.services-container {
+    height: 100vh; /* Full height to center vertically */
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFC470;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: center; /* Vertical center */
+    justify-content: center; /* Horizontal center */
+    flex-direction: column;
 }
-.services-card-container{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    align-items: center;
 
+.services-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
 }
-.service-card{
-    height: 280px;
-    width: 230px;
+
+.service-card {
+    height: 300px;
+    width: 250px;
     box-shadow: 10px 10px 20px 5px #d99f4d;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px; /* Spacing between cards */
 }
 .service-card img{
     padding: 0px 0px 10px 0px;
