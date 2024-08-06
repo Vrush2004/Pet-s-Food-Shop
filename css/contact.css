@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Or set a specific height for the container */
+    height: 300px; /* Or set a specific height for the container */
 }
 .contact-us-img{
     display: flex;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 .contact-us-img img {
-    height: 250px;
+    height: 200px;
 }
 .contact-detail-container{
     height: 550px;
@@ -20,11 +20,49 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.contact-details{
+    height: 450px;
+    width: 500px;
+    margin: 150px 0px 150px 230px;
+    
+}
+.contact-details h3{
+    color: #8B322C;
+    font-size: 30px;
+    font-weight: 600;
+}
+.details{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.details-img{
+    height: 40px;
+}
+.details-info{
+    margin-left: 15px;
+}
+.details-info p{
+    color: #8B322C;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+.details-info a{
+    text-decoration: none;
+    color: #e8533f;
+    font-size: 15px;
+}
+.help-heading{
+    padding: 10px;
+    color: #8B322C;
+    font-size: 20px;
+    font-weight: 600;
+}
 .contact-form{
     height: 450px;
     width: 500px;
     box-shadow: 10px 10px 20px 5px #d99f4d;
-    margin: 50px 100px;
+    margin: 50px 150px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

@@ -43,6 +43,13 @@
     color: #FFC470;
     text-decoration: none;
 }
+.view-more-btn-container:hover{
+    background-color: #FFC470;
+    box-shadow: 5px 5px 20px 2px #7e241e;
+}
+.view-more-btn:hover{
+    color: #7e241e;
+}
 .category-container{
     padding-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
