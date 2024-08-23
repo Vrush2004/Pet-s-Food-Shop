@@ -245,3 +245,75 @@
         font-size: 14px;
     }
 }
+
+/* Media queries for tab device */
+@media screen and (min-width:901px) and (max-width:1300px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 100%;
+        height: 420px;
+    }
+    .pets-img{
+        padding-top: 0;
+        margin-top: 0;
+        height: 400px;
+    }
+    .header-content{
+        padding: 100px 30px 30px 100px;
+        height: 450px;
+        width: 100%;
+    }
+    .header-content h1{
+        padding-left: 7px;
+        font-size: 30px;
+    }
+    .header-content p{
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 10px;
+        padding-right: 25px;
+        text-align: justify;
+    }
+    .view-more-btn-container{
+        margin-top: 30px; 
+        margin-left: 10px;
+        padding: 7px 20px;
+        font-size: 18px;
+    }
+    .category-container{
+        padding: 40px 0px;
+        height: auto;
+        width: 100%;
+    }
+    .Trending-categories{
+        font-size: 18px;
+    }
+    .category-container h3{
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    .pets-category-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+    .category{
+        height: 150px;
+        width: 150px;
+        margin: 10px auto;
+    }
+    .category img{
+        height: 120px;
+        width: 150px;
+    }
+    .category p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
