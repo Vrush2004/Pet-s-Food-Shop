@@ -99,3 +99,60 @@
     color: #8B322C;
     box-shadow: 5px 5px 10px 2px;
 }
+
+/* media queries for mobile device */
+@media screen and (max-width:400px){
+    .image-container{
+        height: 170px; 
+    }
+    .contact-us-img img {
+        height: 100px;
+    }
+    .contact-detail-container{
+        height: auto;
+        padding: 20px 10px;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .contact-details{
+        height: auto;
+        width: 100%;
+        margin: 20px 25px;
+    }
+    .contact-details h3{
+        font-size: 23px;
+    }
+    .details{
+        margin-top: 20px;
+    }
+    .details-img{
+        height: 25px;
+    }
+    .details-info{
+        margin-left: 15px;
+    }
+    .details-info p{
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    .details-info a{
+        font-size: 14px;
+    }
+    .help-heading{
+        font-size: 17px;
+    }
+    .contact-form{
+        height: auto;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .form-content{
+        padding: 12px;
+        margin: 5px 10px;
+        width: 90%;
+    }
+    .send-btn{
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+}

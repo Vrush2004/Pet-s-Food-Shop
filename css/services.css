@@ -49,3 +49,42 @@
     color: #d42e18;
 
 }
+
+/* media queries for mobile device */
+@media screen and (max-width:400px){
+    .discount-container{
+        height: 420px;
+        padding-bottom: 10px;
+    }
+    .our-services-img{
+        margin: 20px auto;
+    }
+    .our-services-img img{
+        height: 250px;
+    }
+    .services-container {
+        height: auto;
+        width: 100%;
+    }
+    .services-card-container{
+        padding: 10px;
+    }
+    .service-card {
+        height: 250px;
+        width: 200px;
+    }
+    .service-card img{
+        padding: 0px 0px 10px 0px;
+        height: 60px;
+    }
+    .service-card h4{
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .service-card p{
+        text-align: justify;
+        padding: 0 10px;
+        margin:10px;
+        font-size: 13px;
+    }   
+}
