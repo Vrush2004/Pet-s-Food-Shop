@@ -225,3 +225,95 @@
         font-size: 14px;
     }
 }
+
+/* Media queries for tab device */
+@media screen and (min-width:901px) and (max-width:1300px){
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px; /* Or set a specific height for the container */
+    }
+    .contact-us-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-us-img img {
+        padding-top: 30px;
+        height: 170px;
+    }
+    .contact-detail-container{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .contact-details{
+        height: 450px;
+        width: 100%;
+        margin: 50px 20px;  
+    }
+    .contact-details h3{
+        font-size: 30px;
+    }
+    .details{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .details-img{
+        height: 30px;
+    }
+    .details-info{
+        margin-left: 15px;
+    }
+    .details-info p{
+        color: #8B322C;
+        font-size: 15px;
+        padding-bottom: 3px;
+    }
+    .details-info a{
+        text-decoration: none;
+        color: #e8533f;
+        font-size: 15px;
+    }
+    .help-heading{
+        padding: 10px;
+        font-size: 24px;
+    }
+    .contact-form{
+        height: 450px;
+        width: 40%;
+        box-shadow: 10px 10px 20px 5px #d99f4d;
+        margin: 50px;
+        border-radius: 20px;
+    }
+    .contact-form:hover{
+        box-shadow: 15px 15px 20px 10px #c28e45;
+    }
+    .form-content{
+        padding: 15px;
+        margin: 5px 10px;
+        width: 400px;
+    }
+    .form-content:hover{
+        border: solid 2px #8B322C
+    }
+    .send-btn{
+        background-color: #8B322C;
+        color: #FFC470;
+        padding: 7px 25px;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px;
+    }
+    .send-btn:hover{
+        background-color: #FFC470;
+        color: #8B322C;
+        box-shadow: 5px 5px 10px 2px;
+    }
+}
