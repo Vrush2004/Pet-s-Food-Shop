@@ -156,3 +156,72 @@
         font-size: 14px;
     }
 }
+
+/* Media queries for tab device */
+@media screen and (min-width:451px) and (max-width:900px){
+    .image-container{
+        height: 150px; 
+    }
+    .contact-us-img img {
+        padding-top: 30px;
+        height: 130px;
+    }
+    .contact-detail-container{
+        display: flex;
+        height: 700px;
+        padding: 20px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-details{
+        height: 250px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .contact-details h3{
+        font-size: 23px;
+    }
+    .details{
+        margin-top: 20px;
+    }
+    .details-img{
+        height: 25px;
+    }
+    .details-info{
+        margin-left: 15px;
+    }
+    .details-info p{
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    .details-info a{
+        font-size: 14px;
+    }
+    .help-heading{
+        font-size: 20px;
+    }
+    .contact-form{
+        box-shadow: none;
+        height: auto;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .contact-form:hover{
+        box-shadow: none;
+    }
+    .form-content{
+        padding: 12px;
+        margin: 5px 10px;
+        width: 100%;
+    }
+    .send-btn{
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+}
