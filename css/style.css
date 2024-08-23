@@ -14,7 +14,8 @@
     background-color: #4793AF;
 }
 .logo img{
-    height: 180px;
+    margin-left: 50px;
+    height: 150px;
 }
 .nav-menus{
     display: flex;
@@ -98,4 +99,34 @@
 .discount-section-img {
     height: 400px;
     margin-right: 70px;
+}
+
+/* Media queries for mobile device */
+@media screen and (max-width:500px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+    .logo img{
+        height: 70px;
+        margin-left: 5px;
+    }
+    .home{
+        display: none;
+    }
+    .nav-menus{
+        padding-right: 5px;
+    }
+    .nav-menus a{
+        margin: 0 7px;
+        font-size: 14px;
+    }
+    .nav-menus a:hover{
+        padding: 3px 5px;
+    }
+    .footer{
+        height: 50px;
+        font-size: 13px;
+    }
 }

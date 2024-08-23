@@ -86,7 +86,7 @@
 }
 .send-btn{
     background-color: #8B322C;
-    color: #d99f4d;
+    color: #FFC470;
     padding: 7px 25px;
     border-radius: 15px;
     border: none;
@@ -95,7 +95,7 @@
     margin: 10px;
 }
 .send-btn:hover{
-    background-color: #d99f4d;
+    background-color: #FFC470;
     color: #8B322C;
     box-shadow: 5px 5px 10px 2px;
 }
