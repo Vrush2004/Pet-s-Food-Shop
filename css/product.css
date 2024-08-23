@@ -240,3 +240,77 @@
         margin: 10px;
     }
 }
+
+/* Media queries for tab device */
+@media screen and (min-width:451px) and (max-width:900px){
+    .pets-image-container{
+        display: none;
+    }
+    .new-food-heading{
+        padding-top: 30px;
+    }
+    .new-food-heading{
+        font-size: 25px;
+    }
+    .new-products-container{
+        height: auto;
+        margin: 20px;
+    }
+    .new-product-card{
+        height: 300px;
+        width: 230px;
+        margin: 20px;
+    }
+    .new-product{
+        padding-top: 15px;
+    }
+    .new-product img{
+        height: 120px;
+    }
+    .new{
+        padding: 3px 2px 3px 12px;
+        height: 25px;
+    }
+    .price{
+        padding: 10px 10px 5px 15px;
+        font-size: 16px;
+    }
+    .product-name{
+        font-size: 15px;
+    }
+    .rating{
+        padding: 10px;
+        width: 70px;
+    }
+    .food-container{
+        height: auto;
+        padding: 10px;
+    }
+    .food-heading h1{
+        font-size: 25px;
+        padding: 10px 25px;
+        margin: 10px auto;
+    }
+    .food-card-cantainer{
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .food-card{
+        background-color: white;
+        box-shadow: -4px 4px 10px 1px rgb(67, 66, 66);
+        height: 250px;
+        width: 200px;
+    }
+    .food-card img{
+        margin-top: 10px;
+        height: 120px;
+    }
+    .food-card button{
+        margin: 10px;
+    }
+}
