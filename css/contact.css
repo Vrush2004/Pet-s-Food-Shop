@@ -101,7 +101,7 @@
 }
 
 /* media queries for mobile device */
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     .image-container{
         height: 170px; 
     }
